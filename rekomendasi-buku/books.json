@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": ["Fiction", "Classic"],
+        "description": "The story of racial injustice in the American South.",
+        "coverImage": "https://example.com/to-kill-a-mockingbird.jpg",
+        "averageRating": 4.5,
+        "ratings": []
+    },
+    {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": ["Fiction", "Dystopian"],
+        "description": "A dystopian novel about totalitarian surveillance society.",
+        "coverImage": "https://example.com/1984.jpg",
+        "averageRating": 4.3,
+        "ratings": []
+    },
+    {
+        "id": 3,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": ["Fiction", "Romance"],
+        "description": "A romantic tale about societal expectations and love in 19th-century England.",
+        "coverImage": "https://example.com/pride-and-prejudice.jpg",
+        "averageRating": 4.6,
+        "ratings": []
+    },
+    {
+        "id": 4,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": ["Fiction", "Classic"],
+        "description": "A story of wealth, ambition, and the American Dream in the 1920s.",
+        "coverImage": "https://example.com/the-great-gatsby.jpg",
+        "averageRating": 4.4,
+        "ratings": []
+    },
+    {
+        "id": 5,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "genre": ["Fiction", "Adventure"],
+        "description": "An epic tale of the quest to capture the elusive white whale, Moby-Dick.",
+        "coverImage": "https://example.com/moby-dick.jpg",
+        "averageRating": 4.1,
+        "ratings": []
+    },
+    {
+        "id": 6,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": ["Fiction", "Classic"],
+        "description": "A coming-of-age novel about teenage rebellion and identity.",
+        "coverImage": "https://example.com/the-catcher-in-the-rye.jpg",
+        "averageRating": 4.0,
+        "ratings": []
+    },
+    {
+        "id": 7,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": ["Fiction", "Fantasy"],
+        "description": "The adventurous tale of Bilbo Baggins' journey to the Lonely Mountain.",
+        "coverImage": "https://example.com/the-hobbit.jpg",
+        "averageRating": 4.8,
+        "ratings": []
+    },
+    {
+        "id": 8,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": ["Fiction", "Dystopian"],
+        "description": "A dystopian vision of a technologically advanced but dehumanized society.",
+        "coverImage": "https://example.com/brave-new-world.jpg",
+        "averageRating": 4.2,
+        "ratings": []
+    },
+    {
+        "id": 9,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "author": "J.R.R. Tolkien",
+        "genre": ["Fiction", "Fantasy"],
+        "description": "The beginning of Frodo's epic journey to destroy the One Ring.",
+        "coverImage": "https://example.com/lotr-fellowship.jpg",
+        "averageRating": 4.9,
+        "ratings": []
+    },
+    {
+        "id": 10,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": ["Fiction", "Philosophy"],
+        "description": "A journey of self-discovery and following one's dreams.",
+        "coverImage": "https://example.com/the-alchemist.jpg",
+        "averageRating": 4.7,
+        "ratings": []
+    }
+]

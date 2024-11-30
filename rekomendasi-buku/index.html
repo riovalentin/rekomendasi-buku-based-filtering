@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation System</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <span>BUKU DIGITAL</span>
+            </div>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cari buku...">
+                    <button class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-section">
+            <h1>Temukan Buku Digital</h1>
+            <p>Koleksi lengkap buku digital untuk semua kalangan</p>
+        </div>
+
+        <div class="container">
+            <div class="filter-section">
+                <h2>Filter</h2>
+                <div class="filter-group">
+                    <label>Penerbit</label>
+                    <select id="publisherFilter">
+                        <option value="">Semua Penerbit</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Tahun Terbit</label>
+                    <select id="yearFilter">
+                        <option value="">Semua Tahun</option>
+                    </select>
+                </div>
+                <button id="resetFilter" class="reset-filter-btn">Reset Filter</button>
+            </div>
+
+            <div class="content-section">
+                <div id="bookList" class="book-grid"></div>
+                <div id="pagination" class="pagination"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>Platform buku digital untuk mendukung literasi Indonesia</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/books.js"></script>
+    <script src="scripts/recommendation.js"></script>
+    <script src="scripts/bookData.js"></script>
+    <script src="scripts/ui.js"></script>
+</body>
+</html> 
